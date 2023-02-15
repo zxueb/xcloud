@@ -1,0 +1,18 @@
+server:
+  port: 80
+spring:
+  application:
+    name: xcloud-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 82.157.69.71:8848
+    sentinel:
+      transport:
+        dashboard: 82.157.69.71:8858
+      web-context-unify: false
+    #gateway的配置
+    gateway:
+      discovery:
+        locator:
+          enabled: true
