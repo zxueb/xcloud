@@ -203,7 +203,7 @@
       </method>
     </configuration>
     <configuration name="NatCrossApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="natcross" />
+      <module name="natcrossWorkSpace" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.natcross.NatCrossApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
