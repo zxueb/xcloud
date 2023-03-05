@@ -6,7 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>gateway</module>
-      <module>natcross</module>
+      <module>natcrossWorkSpace</module>
         <module>natcrossEngine</module>
     </modules>
     <groupId>com.xue</groupId>
