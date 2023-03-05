@@ -4,101 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e92add9-a87a-41f6-ac34-9a1786871e23" name="Changes" comment="添加ignore">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcross/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcross/src/main/java/com/xue/natcross/NatCrossApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcross/src/main/java/com/xue/natcross/controller/ManagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcross/src/main/java/com/xue/natcross/dao/Result/NatMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcross/src/main/java/com/xue/natcross/dao/Result/OperationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcross/src/main/java/com/xue/natcross/proxy/NatcrossEngineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcross/src/main/java/com/xue/natcross/service/ManagerServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcross/src/main/java/com/xue/natcross/service/impl/ManagerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcross/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/NatCrossEngineApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/api/IBelongControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/api/IHttpRouting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/api/passway/SecretPassway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/api/passway/SimplePassway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/api/secret/AESSecret.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/api/secret/ISecret.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/api/socketpart/AbsSocketPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/api/socketpart/HttpRouteSocketPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/api/socketpart/SecretSocketPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/api/socketpart/SimpleSocketPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/channel/Channel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/channel/InteractiveChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/channel/JsonChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/channel/LengthChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/channel/SecretInteractiveChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/channel/SocketChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/channel/StringChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/common/CommonFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/common/Optional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/controller/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/controller/ServerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/executor/IExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/executor/NatcrossExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/executor/SimpleExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/model/HttpRoute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/model/InteractiveModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/model/NatcrossResultModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/model/SecretInteractiveModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/model/enumeration/InteractiveTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/model/enumeration/NatcrossResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/model/interactive/ClientConnectModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/model/interactive/ClientControlModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/model/interactive/ServerWaitModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/nio/INioProcesser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/nio/NioHallows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/nio/ProcesserHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/ClientServiceThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/adapter/DefaultReadAheadPassValueAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/adapter/IClientServiceAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/adapter/PassValueNextEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/adapter/ReadAheadPassValueAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/config/IClientServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/config/SecretSimpleClientServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/config/SimpleClientServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/handler/DefaultInteractiveProcessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/handler/IPassValueHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/handler/InteractiveProcessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/process/ClientConnectProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/process/ClientControlProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/client/process/IProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/IServerListen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/ListenServerControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/ServerListenThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/clear/ClearInvalidSocketPartThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/clear/IClearInvalidSocketPartThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/config/AllSecretSimpleListenServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/config/IListenServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/config/MultControlListenServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/config/SecretSimpleListenServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/config/SimpleListenServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/control/ControlSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/control/IControlSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/control/MultControlSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/recv/ClientHeartHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/recv/CommonReplyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/recv/IRecvHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/serverside/listen/serversocket/ICreateServerSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/service/ClientServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/service/ServeServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/service/impl/ClientServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/service/impl/ServeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/utils/AESUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/utils/Assert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/utils/CountWaitLatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/utils/MD5Signature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/java/com/xue/natcrossEngine/utils/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/natcrossEngine/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4e92add9-a87a-41f6-ac34-9a1786871e23" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +95,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NatCrossEngineApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xue.gateway.GatewayApplication" />
@@ -241,7 +148,7 @@
       <workItem from="1676471759129" duration="1137000" />
       <workItem from="1676712653203" duration="1825000" />
       <workItem from="1677938402118" duration="21008000" />
-      <workItem from="1678020768374" duration="4582000" />
+      <workItem from="1678020768374" duration="4884000" />
     </task>
     <task id="LOCAL-00001" summary="框架">
       <created>1676471103073</created>
@@ -264,7 +171,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676471706689</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="内网穿透引擎">
+      <created>1678025433709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678025433709</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改服务名称">
+      <created>1678025540574</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678025540574</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改服务名称">
+      <created>1678025546789</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678025546789</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +202,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="框架" />
     <MESSAGE value="添加ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加ignore" />
+    <MESSAGE value="内网穿透引擎" />
+    <MESSAGE value="修改服务名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改服务名称" />
   </component>
 </project>
