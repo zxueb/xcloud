@@ -1,0 +1,18 @@
+server:
+  port: 0
+spring:
+  application:
+    name: natcross-workSpace
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 82.157.69.71:8848
+    sentinel:
+      transport:
+        dashboard: 82.157.69.71:8858
+      web-context-unify: false
+
+feign:
+  sentinel:
+    #openfeign整合sentinel
+    enabled: true

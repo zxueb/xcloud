@@ -6,8 +6,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>gateway</module>
-      <module>natcrossWorkSpace</module>
-        <module>natcrossEngine</module>
+      <module>natcross-workSpace</module>
+        <module>natcross-engine</module>
     </modules>
     <groupId>com.xue</groupId>
     <artifactId>xcloud</artifactId>
